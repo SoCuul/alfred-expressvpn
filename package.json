@@ -1,0 +1,23 @@
+{
+	"name": "alfred-expressvpn",
+	"version": "1.0.1",
+	"description": "Alfred workflow to manage your ExpressVPN connection",
+	"type": "module",
+	"main": "index.js",
+	"keywords": [
+		"alfred",
+		"alfredapp",
+		"alfred-workflow",
+		"expressvpn"
+	],
+	"homepage": "https://github.com/socuul/alfred-expressvpn",
+	"author": "SoCuul",
+	"license": "ISC",
+	"scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+	"dependencies": {
+		"alfy": "^2.0.0"
+	}
+}
