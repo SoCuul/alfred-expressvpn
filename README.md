@@ -1,4 +1,4 @@
-# ExpressVPN Alfred
+# Alfred ExpressVPN
 An alfred workflow to manage your ExpressVPN connection
 
 # Installation

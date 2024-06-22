@@ -1,6 +1,6 @@
 {
 	"name": "alfred-expressvpn",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Alfred workflow to manage your ExpressVPN connection",
 	"type": "module",
 	"main": "index.js",

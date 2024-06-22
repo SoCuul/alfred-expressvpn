@@ -386,8 +386,10 @@ Notification</string>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/socuul/alfred-expressvpn</string>
 </dict>
