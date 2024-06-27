@@ -7,5 +7,5 @@ npm install --global alfred-expressvpn
 ```
 
 # Screenshots
-![](https://i.imgur.com/6mrlw1p.png)
-![](https://i.imgur.com/3ZUZSjB.png)
+![](https://i.imgur.com/iI4Bfr1.png)
+![](https://i.imgur.com/uwdkPGS.png)
