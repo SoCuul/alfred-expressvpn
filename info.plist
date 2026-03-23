@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.socuul.alfred.expressvpn</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Application</string>
 	<key>connections</key>
 	<dict>
 		<key>177039CF-0717-4E00-9FE3-69F90DD802A6</key>
@@ -278,33 +278,6 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>on run
-  	tell application "ExpressVPN"
-		activate
-		disconnect			delay 1			connect "{query}"	end tell
-end run</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>96E91659-9CCC-4F82-8191-CBD36B1E273B</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -322,6 +295,39 @@ end run</string>
 			<string>415614C6-E9BD-4DF1-9E68-FE531501F6CB</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run
+  	tell application "ExpressVPN"
+		activate
+
+		disconnect
+	
+		delay 1
+	
+		connect "{query}"
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96E91659-9CCC-4F82-8191-CBD36B1E273B</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -353,7 +359,7 @@ Notification</string>
 			<key>xpos</key>
 			<real>610</real>
 			<key>ypos</key>
-			<real>350</real>
+			<real>345</real>
 		</dict>
 		<key>483C6FB4-737D-46A0-8E6F-07B20BDF3141</key>
 		<dict>
@@ -389,7 +395,7 @@ Notification</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/socuul/alfred-expressvpn</string>
 </dict>

@@ -1,6 +1,6 @@
 {
 	"name": "alfred-expressvpn",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Alfred workflow to manage your ExpressVPN connection",
 	"type": "module",
 	"main": "index.js",
@@ -18,6 +18,6 @@
 		"preuninstall": "alfy-cleanup"
 	},
 	"dependencies": {
-		"alfy": "^2.0.0"
+		"alfy": "^3.1.0"
 	}
 }
